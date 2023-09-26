@@ -25,6 +25,22 @@
 
 }
 
-.handleCount input{
-    width:11px;
+ input{
+    text-align: center;
+    width:30px;
+}
+
+.checkout button{
+    text-decoration: none;
+    background-color: black;
+    border: 2px solid rgb(19, 19, 19);
+    color: white;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin:0px 12px;
+    border-radius: 7px;
+    font-size: 15px;
 }

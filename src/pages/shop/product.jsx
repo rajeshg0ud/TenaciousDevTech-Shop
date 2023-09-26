@@ -23,9 +23,10 @@ function Product(props){
                 </p>
             </div>
             <div> 
-                {cartItemAmount==0 && <a className='addToCartBttn' onClick={()=>{addToCart(id)}}><ShoppingCart  size={16} />{"ADD TO CART"}</a>}
-                {cartItemAmount>0 && <Link className='addToCartBttn' to='/cart' ><ShoppingCart size={16} />
-                <a>GO TO CART</a></Link> }     
+                {cartItemAmount===0 && <a className='addToCartBttn' onClick={()=>addToCart(id)}>
+                    <ShoppingCart  size={16} />{"ADD TO CART"}</a>}
+                {cartItemAmount>0 && <Link className='addToCartBttn' to='/cart' >
+                    <ShoppingCart size={16} />GO TO CART</Link> }     
             </div>
         </div>
 

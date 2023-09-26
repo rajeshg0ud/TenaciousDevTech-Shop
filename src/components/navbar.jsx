@@ -12,7 +12,7 @@ function Navbar(){
             </Link>
             <Link className="linkC" to='/cart' >
                 <ShoppingCart size={29} />
-                <a className="iconName"> Cart</a>
+                <span className="iconName"> Cart</span>
             </Link>
             <a className="iconName" id="menu">⋮</a>
 
