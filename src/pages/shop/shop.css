@@ -74,3 +74,12 @@
     }
   
   }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .products {
+      width: 100%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      place-items: center;
+    }
+  }
