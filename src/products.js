@@ -1,4 +1,4 @@
-import IPhone from './images/iphone.jpg';
+import IPhone from './images/iphone1.jpg';
 import Airpods from './images/airpods.jpg';
 import Laptop from './images/macbook (4).jpg';
 import Headphones from './images/headphones (2).jpg';
