@@ -11,31 +11,31 @@ import Cycle from './images/cycle (1).jpg';
 export const PRODUCTS = [
     {
       id: 1,
-      productName: "iPhone",
+      productName: "Apple iPhone 13",
       price: 50000,
       productImage: IPhone,
     },
     {
       id: 2,
-      productName: "Airpods",
+      productName: "AirPods Pro",
       price: 18000,
       productImage: Airpods,
     },
     {
       id: 3,
-      productName: "Macbook",
+      productName: "MacBook Pro",
       price: 75000,
       productImage: Laptop,
     },
     {
         id: 4,
-        productName: "Washing Machine",
+        productName: "Front Load Washing Machine",
         price: 49000,
         productImage: washingMachine,
       },
     {
       id: 5,
-      productName: "Canon Camera",
+      productName: "Canon DSLR Camera",
       price: 91000,
       productImage: Camera,
     },
@@ -53,13 +53,13 @@ export const PRODUCTS = [
     },
     {
       id: 8,
-      productName: "Smart Bag",
+      productName: "Smart Backpack",
       price: 4000,
       productImage: Bag,
     },
     {
       id: 9,
-      productName: "E-Bike",
+      productName: "Electric Bicycle (E-Bike)",
       price: 60000,
       productImage: Cycle,
     },

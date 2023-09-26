@@ -16,18 +16,22 @@
     border-radius: 50px;
     width: auto;
     height: auto;
-    margin: 20px;
+    margin: 30px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
   
   .product img {
     border-radius: 10px;
-    width: 250px;
+    width: 230px;
   }
-  
+  .product img:hover{
+    width: 235px;
+  }
+
   .product .description {
     text-align: center;
   }
@@ -53,4 +57,22 @@
     background-color: rgb(19, 19, 19);
     color: white;
     cursor: pointer;
+  }
+
+  @media (max-width: 767px) {
+
+    .shopTitle {
+      margin:25px 0px 0 0;
+      text-align: center;
+      font-size: 16px;
+      padding-bottom: 10px;
+    }
+
+    .products {
+      grid-template-columns: 1fr; /* Change to 1 column for smaller screens */
+    }
+  
+    .product img {
+      width: 100%; /* Make images fill the container */
+    }
   }
