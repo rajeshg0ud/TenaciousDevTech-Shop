@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background-color: black;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+}
+.linkH{
+    position: absolute;
+    left:10px
+}
+
+.linkH, .linkC, #menu {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    top:1.5px;
+}
+
+.iconName{
+    position: relative;
+    bottom: 7.6px;
+    font-size: 20px;
+}
