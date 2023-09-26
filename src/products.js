@@ -7,6 +7,10 @@ import washingMachine from './images/ashing mac.jpg';
 import smartWatch from './images/smart-watch (2).jpg';
 import Bag from './images/bag.jpg';
 import Cycle from './images/cycle (1).jpg';
+import smartTv from './images/tv.jpg';
+import Speaker from './images/speaker (2).jpg';
+import Mic from './images/mic (4).jpg';
+
 
 export const PRODUCTS = [
     {
@@ -45,24 +49,43 @@ export const PRODUCTS = [
         price: 4000,
         productImage: Headphones,
       },
+      {
+        id: 7,
+        productName: "Smart TV",
+        price: 65000,
+        productImage: smartTv,
+      },
+      {
+        id: 8,
+        productName: "Speaker",
+        price: 12000,
+        productImage: Speaker,
+      },
+      {
+        id: 9,
+        productName: "Mic",
+        price: 3000,
+        productImage: Mic,
+      },
     {
-      id: 7,
+      id: 10,
       productName: "Smart Watch",
       price: 5000,
       productImage: smartWatch,
     },
     {
-      id: 8,
+      id: 11,
       productName: "Smart Backpack",
       price: 4000,
       productImage: Bag,
     },
     {
-      id: 9,
+      id: 12,
       productName: "Electric Bicycle (E-Bike)",
       price: 60000,
       productImage: Cycle,
     },
+
   ];
   
   
