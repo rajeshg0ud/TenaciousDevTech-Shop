@@ -68,18 +68,12 @@
       font-size: 15px;
       padding-bottom: 10px;
     }
-    .product{
-      height: auto;
-    }
     .products {
       grid-template-columns: 1fr; /* Change to 1 column for smaller screens */
     }
   
   }
   @media (min-width: 768px) and (max-width: 991px) {
-    .product{
-      height: auto;
-    }
     
     .products {
       width: auto;
