@@ -15,12 +15,12 @@
   .product {
     border-radius: 5px;
     width: auto;
-    height: auto;
+    height: 480px;
     margin: 30px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
   
@@ -32,19 +32,19 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 
-  .product .description {
+  .product .description{
     text-align: center;
   }
-  
   .product:hover {
     transition: 0.3s ease-in;
     cursor: pointer;
   }
 
-
-  .addToCartBttn {
+  .addToCartBttn{
+    text-decoration: none;
     background-color: transparent;
     border: 2px solid rgb(19, 19, 19);
+    color: black;
     min-width: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -52,12 +52,12 @@
     padding-bottom: 5px;
     margin-bottom: 10px;
     border-radius: 15px;
+    font-size: 15px;
   }
-  
-  .addToCartBttn:hover {
+
+   .addToCartBttn:hover {
+    color:white;
     background: black;
-    color: white;
-    cursor: pointer;
   }
 
   @media (max-width: 767px) {
