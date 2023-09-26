@@ -51,3 +51,9 @@
 .totalAmount{
     font-weight: bold;
 }
+
+@media (max-width: 767px){
+    .cartItem{
+    width:290px;
+    }
+}
