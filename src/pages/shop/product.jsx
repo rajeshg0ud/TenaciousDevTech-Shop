@@ -3,8 +3,10 @@ import {ShopContext} from '../../context/context';
 import { useContext } from 'react';
 import { Link } from "react-router-dom";
 import {ShoppingCart} from 'phosphor-react';
+import { useNavigate } from 'react-router-dom';
 
 function Product(props){
+    const navigate= useNavigate();
 
     const {id, productName, price, productImage}= props.data;
 
@@ -25,8 +27,8 @@ function Product(props){
             <div> 
                 {cartItemAmount===0 && <a className='addToCartBttn' onClick={()=>addToCart(id)}>
                     <ShoppingCart  size={16} />{"ADD TO CART"}</a>}
-                {cartItemAmount>0 && <Link className='addToCartBttn' to='/cart' >
-                    <ShoppingCart size={16} />GO TO CART</Link> }     
+                {cartItemAmount>0 && <a className='addToCartBttn' onClick={()=> navigate("/cart")}>
+                    <ShoppingCart size={16} />GO TO CART</a> }     
             </div>
         </div>
 

@@ -43,4 +43,11 @@
     margin:0px 12px;
     border-radius: 7px;
     font-size: 15px;
+    cursor: pointer;
+}
+.checkout p{
+    font-weight: 600;
+}
+.totalAmount{
+    font-weight: bold;
 }
