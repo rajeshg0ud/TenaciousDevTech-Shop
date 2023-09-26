@@ -45,6 +45,9 @@
     font-size: 15px;
     cursor: pointer;
 }
+.checkout{
+    margin-bottom: 45px;
+}
 .checkout p{
     font-weight: 600;
 }
