@@ -1,7 +1,6 @@
 import './shop.css';
 import {ShopContext} from '../../context/context';
 import { useContext } from 'react';
-import { Link } from "react-router-dom";
 import {ShoppingCart} from 'phosphor-react';
 import { useNavigate } from 'react-router-dom';
 
