@@ -33,4 +33,9 @@ body{
     .links{
         font-size: larger;
     }
+
+    .icon{
+        size: 25px;
+        font-size: large;
+    }
 }
