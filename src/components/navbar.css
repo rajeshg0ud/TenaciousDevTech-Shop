@@ -28,14 +28,3 @@ body{
     bottom: 7.6px;
     font-size: 20px;
 }
-
-@media (min-width: 768px) and (max-width: 991px){
-    .links{
-        font-size: larger;
-    }
-
-    .icon{
-        size: 25px;
-        font-size: large;
-    }
-}
